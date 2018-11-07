@@ -35,39 +35,28 @@ body {
 }
 
 /*Jumbotron*/
-.jumbotron {
-  background-image: url(../images/dna-1811955_1920.jpg);
-  color: #fff;
-  padding: 250px 25px;
-  font-family: Lato, sans-serif;
+.main {
+  background-color: #5f9ea0;
+  color: white;
+  padding-top: 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+img#main-img {
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 p#jumbo-name {
-  font-size: 5em;
-  margin-left: 50px;
+  font-size: 4em;
+  margin-left: 120px;
+  margin-top: 200px;
+  font-weight: 100;
 }
 
 p#jumbo-title {
   font-size: 2em;
-  margin-left: 50px;
+  margin-left: 120px;
+  font-weight: 200;
 }
 
-/*Media*/
-
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
-
-  .btn-lg {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .logo {
-    font-size: 150px;
-  }
-}
